@@ -16,14 +16,14 @@ class DemoApplicationTests {
     @Test
     public void testMulti() {
         calcule math = new calcule ();
-        int result = math.multi(3, 4);
+        int result = math.multiply(3, 4);
         assertEquals(12, result);
     }
 
     @Test
     public void testDiv() {
         calcule math = new calcule ();
-        int result = math.div(10, 2);
+        int result = math.divide(10, 2);
         assertEquals(5, result);
     }
 }
