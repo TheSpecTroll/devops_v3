@@ -3,10 +3,6 @@
   <testsuite name="CalculatorTests" tests="3" failures="1" time="0.023">
     <testcase name="testAddition" classname="CalculatorTest" time="0.005"/>
     <testcase name="testSubtraction" classname="CalculatorTest" time="0.008"/>
-    <testcase name="testDivision" classname="CalculatorTest" time="0.010">
-      <failure message="Division by zero error">java.lang.ArithmeticException: / by zero
-        at CalculatorTest.testDivision(CalculatorTest.java:22)
-      </failure>
-    </testcase>
+    <testcase name="testDivision" classname="CalculatorTest" time="0.010"/>
   </testsuite>
 </testsuites>
